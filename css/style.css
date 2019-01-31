@@ -1,0 +1,310 @@
+*{margin: 0; padding: 0; outline: 0;}
+
+body{
+font-family: 'Georgia',Arial  !important;
+font-size: 17px;
+background: #fff;
+transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+}
+p{font-weight: 400;}
+h1,h2,h3,h4,h6{font-weight: 700;}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+/* if you want Transparent nav bar then you should not mention any background img or bacground color 
+  .navbar {
+    background: #4267B2;
+  }
+*/
+
+/* logo */
+.logo{
+padding-top: 5px;
+}
+
+.logo img{
+width: 150px;
+height: 50px;
+border-radius: 50%;
+border: 4px solid#000000;
+}
+
+
+/* Navbar */
+.bg-dark {
+  background-color: #4267B2 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+font-size: 16px;
+color: #fff !important; 
+font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+background: #1ebba3;
+transition: 0.5s;
+cursor: pointer;
+}
+.active{
+  background: #1ebba3; 
+}
+
+#main_nav.navbar-shrink{
+background: #4267B2;
+}
+
+
+
+/* Slider */
+#slider_area{
+  background: #2C3E50 !important;
+}
+.starter{
+text-align: center;
+padding-top: 180px;
+padding-bottom: 200px;
+color: #FFFFFF;
+
+}
+.starter img{
+max-width: 300px;
+max-height: 300px;
+}
+.starter h1{
+font-size: 60px;
+line-height: 60px;
+}
+.starter h2{
+  font-size: 40px;
+}
+
+
+/* social media */
+
+.social_media {
+  position: fixed;
+  top: 120px;
+  right: 1%;
+  border-radius: 1em;
+  
+}
+.social_media ul{
+  list-style: none;
+  
+}
+.social_media ul li{
+  float: none;
+  
+}
+
+.social_media ul li img{
+  width: 40px;
+  height: 40px; 
+ 
+} 
+
+/* about area */
+#about{
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background: #F9F9F9;
+}
+.intro{
+  margin-right: 120px;
+}
+.intro h2{
+font-size: 25px;
+font-weight: bold;
+}
+.intro p{
+font-size: 17px;
+line-height: 1.4em;
+}
+.about_details p{
+  font-size: 17px;
+  line-height: 1.4em;
+}
+
+/* Progress Box */
+.progress-box h5{
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/* service */
+#services{
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+.service_top h2{
+font-size: 25px;
+font-weight: bold;
+}
+.service_top p{
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 70px;
+}
+.service_details .card{
+  height: 400px;
+  background: #F9F9F9;
+}
+.service_details .card i{
+font-size: 45px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.service_details h3{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+.service_details p{
+  text-align: left;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+
+/* only hover follow the main js file for movement */
+
+.service_details .card:hover{
+-webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75); 
+-moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75); 
+box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75); 
+}
+
+
+/* work */
+#portfolio{
+background: #F9F9F9;
+padding-top: 60px;
+margin-bottom: 60px;
+}
+.portfolio_top h2{
+font-size: 25px;
+font-weight: bold;
+}
+.portfolio_top p{
+  font-weight: 400;
+  line-height: 25px;
+  
+}
+.same_work{
+  overflow: hidden;
+}
+.same_work img{
+  width: 250px;
+  height: 250px;
+  border: 10px solid#EEEEEE;
+  transition: all 1.5s ease;
+}
+.same_work:hover img{
+  transform:scale(1.5);
+}
+.portfolio_content{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+
+
+/* Contact Area */
+#contact{
+ padding-top: 60px;
+ background: #F9F9F9;
+}
+.contact_top h2{
+font-size: 25px;
+font-weight: bold;
+}
+.contact_top p{
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.contact_content .contact_icon i{
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #1DA1F2;
+  
+  }
+  .contact_content .contact_icon h3{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .contact_content .contact_icon p{
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 60px;
+  }
+#contact_form{
+  background: #F9F9F9;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact_icon:hover {
+  background:#fff;
+  -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75); 
+  -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75); 
+  box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75); 
+  }
+
+
+input{
+  background: #FFFFFF;
+  color: #6C757D;
+  border: 1px solid#6C757D;
+  padding: 10px;
+  border-radius: 5px;
+  width: 500px;
+  }
+
+#text{
+margin-bottom: 15px;
+border: 1px solid#6C757D;
+}
+
+
+/* for scroll Bar */
+
+.scroll_up{
+  width: 50px;
+  height: 45px;
+  font-size: 30px;
+  color: #fff;
+  background: #87d37c;
+  text-align: center;
+  position: fixed;
+  bottom: 106px;
+  right: 15px;
+  z-index: 9998;
+}
+
+/* footer area */
+
+
+.footer_section{
+  background: #4267B2;
+}
+.footer_section p{
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer_section .col-md-4:last-child{text-align: right;
+}
+.footer_section span{
+  color: #ee802f;
+}
